@@ -26,7 +26,7 @@ class HelloWorldText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Text(
+    return SelectableText(
       '${context.l10n.helloWorld} 🚀',
       style: context.textTheme.titleLarge,
     );
