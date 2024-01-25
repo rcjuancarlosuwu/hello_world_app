@@ -26,7 +26,7 @@ class HelloWorldText extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const name = String.fromEnvironment('NAME', defaultValue: 'Codemagic');
+    const name = String.fromEnvironment('NAME', defaultValue: 'Workshop');
     return SelectableText(
       '${context.l10n.helloWorld} $name 🚀',
       style: context.textTheme.titleLarge,

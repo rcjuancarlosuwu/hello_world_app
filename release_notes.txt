@@ -1,0 +1,1 @@
+- Changed default message from "Codemagic" to "Workshop".
